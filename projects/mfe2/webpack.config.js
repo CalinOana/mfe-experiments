@@ -6,7 +6,7 @@ module.exports = withModuleFederationPlugin({
 
   exposes: {
     // Adjusted line:
-    './Module': './projects/mfe2/src/app/bookings/bookings.module.ts'
+    './Module': './projects/mfe2/src/app/bookings/bookings.module.ts',
   },
 
   shared: {

@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 // import { BookingsModule } from './bookings/bookings.module';
 import { APP_ROUTES } from './app.routes';
+import { Route1Component } from './route1/route1.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,7 @@ import { APP_ROUTES } from './app.routes';
   declarations: [
     HomeComponent,
     AppComponent,
+    Route1Component,
   ],
   providers: [],
   bootstrap: [
